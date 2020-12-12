@@ -1,0 +1,7 @@
+VECTORES DINAMICOS
+Lo que vimos en el inicio de este post , son vectores estaticos , puesto que tienen una cantidad fija de memoria asignada y tamaño definido que no podemos modificarlo . Sin embargo , un vector podria tener una cantidad variable de datos , a este se le llama un vector dinamico .
+Para usar vectores dinamicos necesitamos gestionar memoria dinamica . Si bien , es cierto que extrae enormes ventajas , el hacer un mal uso de la memoria dinamica nos podria traer problemas desastrozos .
+Por eso es importante que que cuando creemos vectores dinamicos tambien liberemos la memoria utilizada . Obviamente eliminaremos la memoria utilizada cuando ya no necesitamos mas usar , en este caso , un determinado vector.
+El operador " new " sirve para reservar memoria dinamica . El operador " delete " se usa para liberar la memoria dinamica reservada con new .
+Para liberar memoria de un arreglo dinamico usamos delete [] . El espacio de memoria que hemos reservado con " new " tendra vida hasta que finalize la ejecucion del programa o cuando liberemos ese espacio con " delete " .
+Pagina Web : https://ronnyml.wordpress.com/2009/07/04/vectores-matrices-y-punteros-en-c/
